@@ -24,7 +24,7 @@ Before registering Git with ARM, you must check off some of the boxes on the pre
 
 ### Store your GIT credential in ARM <a href="#store-your-git-credential-in-arm" id="store-your-git-credential-in-arm"></a>
 
-This is an initial step in storing your user's credentials (usually a username, password, or token) in ARM. GitHub no longer supports basic authentication using a username and password. You must now authenticate to GitHub with an **API token**, such as an **OAuth** access token, GitHub App installation access token, or personal access token. For more information, see the [blog](https://developer.github.com/changes/2019-11-05-deprecated-passwords-and-authorizations-api/) post.
+This is an initial step in storing your user's credentials (usually a username, password, or token) in ARM. GitHub no longer supports basic authentication using a username and password. You must now authenticate to GitHub with an **API token**, such as GitHub App installation access token, or personal access token. For more information, see the [blog](https://developer.github.com/changes/2019-11-05-deprecated-passwords-and-authorizations-api/) post.
 
 1. Log in to your ARM account.
 2. Hover your mouse over the **`Admin`** module and click on the **`Credentials`** tab.
@@ -62,7 +62,7 @@ To set up a GIT repository, ensure an account is created and configured at [GIT]
 7. Paste the **`Repository URL`** that Git provides you.
 8. Choose the correct user's **`Credentials`** from the list. To create new credentials, click on the **`+`**&#x69;con.Note:Click **Test Connection** to check if the connection has been authenticated or not. A success message is displayed after the authentication is completed.
 9. The **`Default Branch`** selection will be in disabled mode by default. Click the icon to fetch and list all the available branches on your remote repository.
-10. Select one of the default branches from the list.Note:Ensure the default branch is available in your remote repository with some files committed to it. If no file is available, create a README.txt file and add it to the repository.
+10. Select one of the default branches from the list. Note: Ensure the default branch is available in your remote repository with some files committed to it. If no file is available, create a README.txt file and add it to the repository.
 11. Once the registration is done, you can find the newly added repository on **`VC Repo's`** home page.
 
 Points to Remember:
@@ -73,7 +73,7 @@ Points to Remember:
 
 ### Troubleshooting <a href="#troubleshooting" id="troubleshooting"></a>
 
-While registering GIT with ARM, GIT fails to connect, resulting in _Authenticate Failure_**.** This is because GitHub no longer supports basic username and password authentication. You must now authenticate to GitHub with an API token, such as an OAuth access token, GitHub App installation access token, or personal access token, depending on what you need to do with the token. For more information, see the [blog](https://developer.github.com/changes/2019-11-05-deprecated-passwords-and-authorizations-api/) post.
+While registering GIT with ARM, GIT fails to connect, resulting in _Authenticate Failure_**.** This is because GitHub no longer supports basic username and password authentication. You must now authenticate to GitHub with an API token, such as GitHub App installation access token, or personal access token, depending on what you need to do with the token. For more information, see the [blog](https://developer.github.com/changes/2019-11-05-deprecated-passwords-and-authorizations-api/) post.
 
 #### Creating a Personal Access Token <a href="#creating-a-personal-access-token" id="creating-a-personal-access-token"></a>
 
